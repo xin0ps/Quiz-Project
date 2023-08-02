@@ -1,0 +1,2 @@
+user|Quizname:step|Correct:1|False:1|Empty:3
+admin|Quizname:step|Correct:0|False:1|Empty:4
