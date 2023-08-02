@@ -72,13 +72,16 @@ public:
 
          string Ans;
          bool run = true;
-         auto pair = other.questions.begin();  // Initialize the iterator
+         auto pair = other.questions.begin();  
 
          while (run) {
              system("cls");
              cout << "Next question-[n]" << endl;
              cout << "Prev question-[p]" << endl;
              cout << "End Quiz-[e]" << endl;
+             cout << "Note!--[Cavabi daxil ederken variant olaraq daxil etmeyin!] (misal:a)4 dogru cavabdirsa YourChoice:4 olmalidir!)" << endl;
+             cout << endl;
+             cout << endl;
 
              if (pair == other.questions.end()) {
                  cout << "No more questions!" << endl;
@@ -94,21 +97,21 @@ public:
              cout << "Answer: ";
              
              cin >> Ans;
-             cin.ignore();  // Clear the input buffer
+             cin.ignore();  
 
              if (Ans == (answer.getTrueAnswer())) {
                  Correct++;
-                 pair = other.questions.erase(pair);  // Remove the question and move iterator to the next
+                 pair = other.questions.erase(pair);  
              }
              else if (Ans != "n" && Ans != "p"&&Ans!="e") {
                  False++;
-                 pair = other.questions.erase(pair);  // Remove the question and move iterator to the next
+                 pair = other.questions.erase(pair); 
              }
              else if (Ans == "n" && next(pair) != other.questions.end()) {
-                 ++pair;  // Move to the next question if not at the end
+                 ++pair; 
              }
              else if (Ans == "p" && pair != other.questions.begin()) {
-                 --pair;  // Move to the previous question if not at the beginning
+                 --pair;  
              }
              else if (Ans == "e") {
                  break;

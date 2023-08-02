@@ -1,16 +1,16 @@
-Step It Acdemy1
-StepTrue
-False-False-False-
-Step It Acdemy2
-StepTrue
-False-False-False-
-Step It Acdemy3
-StepTrue
-False-False-False-
-Step It Acdemy4
-StepTrue
-False-False-False-
-Step It Acdemy5
-StepTrue
-False-False-False-
+Azerbaycanin paytaxti haradir?
+baki
+gence-sumqayit-naxcivan-
+2*2=?
+4
+5-3-1-
+C++ da ekrana yazdirma funksiyasi necedir?
+cout
+printf-print-syslogout-
+Dunyanin en boyuk golu?
+xezer
+baykal-goygol-van-
+Herfleri boyuk yazmak ucun klaviaturada hansi basilmalidir?
+capslock
+ctrl-alt-fn-
 

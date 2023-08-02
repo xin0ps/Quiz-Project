@@ -18,7 +18,7 @@ void startQuiz() {
 	cout << newquiz;
 
 	
-	
+	s
 
 	//for ( auto i: newquiz.getQuestion().getQuestions())
 	//{

@@ -1,4 +1,9 @@
 ﻿  Source.cpp
-C:\Users\ROG\source\repos\QuizLastVersion\QuizLastVersion\Questions.h(55,14): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ROG\source\repos\QuizLastVersion\QuizLastVersion\Answers.h(41): warning C4715: 'Answers::getTrueAnswer': not all control paths return a value
-  QuizLastVersion.vcxproj -> C:\Users\ROG\source\repos\QuizLastVersion\x64\Debug\QuizLastVersion.exe
+C:\Users\ROG\Desktop\QuizLastVersion\QuizLastVersion\Answers.h(44,17): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+C:\Users\ROG\Desktop\QuizLastVersion\QuizLastVersion\Questions.h(55,14): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ROG\Desktop\QuizLastVersion\QuizLastVersion\Answers.h(41): warning C4715: 'Answers::getTrueAnswer': not all control paths return a value
+  QuizLastVersion.vcxproj -> C:\Users\ROG\Desktop\QuizLastVersion\x64\Debug\QuizLastVersion.exe

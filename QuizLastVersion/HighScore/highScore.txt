@@ -1,2 +1,6 @@
 user|Quizname:step|Correct:1|False:1|Empty:3
 admin|Quizname:step|Correct:0|False:1|Empty:4
+user|Quizname:step|Correct:5|False:0|Empty:0
+user|Quizname:step|Correct:3|False:0|Empty:2
+user|Quizname:step|Correct:2|False:0|Empty:3
+user|Quizname:step|Correct:1|False:1|Empty:3

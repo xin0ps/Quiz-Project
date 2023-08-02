@@ -286,7 +286,7 @@ bool signInAdmin() {
 		{
 			LoginedAdmin = i;
 			return true;
-		}
+		}s
 	}
 	cout << "Incorrect username or password. Please try again.\n";
 	return false;
